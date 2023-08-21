@@ -1,8 +1,5 @@
-1. ssh - keygen -t rsa -b 4096 -C "anoup.thapa@gmail.com"
-    Generates a new ssh key in your local 
-2. git remote add origin <repo-ssh-link>
-Here "git remote add" is the command to add the remote alias name
+1. git branch
+It shows all the branches and highluights the current branch
 
-3. git remote -v
--m => means message
--M=> means Main
+2. git checkout <branch_name>
+    It leaves the curretn branch and jumps to the branch name provided
