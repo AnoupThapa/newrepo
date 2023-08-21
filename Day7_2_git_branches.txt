@@ -4,4 +4,4 @@ It shows all the branches and highluights the current branch
 2. git checkout <branch_name>
     It leaves the curretn branch and jumps to the branch name provided
 3. git checkout <branch_name>
-    It creates a new branch and jumps to that branch
+    It creates a new branch and jumps to that branch 
