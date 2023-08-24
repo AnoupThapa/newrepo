@@ -1,0 +1,19 @@
+# You may have different projects with different packages in your systems.
+# Your one project may require pandas version 2.1 while project may require pandas version 2.2
+# If you want to do both the projects in your global system then problem may arise.
+# To do one project you need to install one package and for other project the other package.
+# Now to solve this problem we can use virtual environment
+
+Commands for the Virtual Environment
+1. Pythpn -m venv venv
+    =>It creates a new virtual environment with name "venv"
+2. Venv\scripts\activate (for windows device enter this command on command prompt)
+    Source venv\bin\activate (for mac and linux devised enter this command on terminal)
+    => It activates the virtual environment
+3. deactivate
+    => It deactivates tje environment
+# If we install a package with virtual environment activated, then the package is accessible for that 
+# environment only. It is not installed globally. Virtual environment is only for the pip packages.
+
+4. pip freeze 
+    => It lists all the installed packages in the environment
