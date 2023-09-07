@@ -1,1 +1,12 @@
-[{"name": "Jon", "age": 30, "address": "KTM"}, {"name": "Jane", "age": 35, "address": "PKR"}]
+[
+  {
+    "name": "Jon",
+    "age": 30,
+    "address": "KTM"
+  },
+  {
+    "name": "Jane",
+    "age": 35,
+    "address": "PKR"
+  }
+]
