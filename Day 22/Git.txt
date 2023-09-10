@@ -1,0 +1,17 @@
+Commands:
+1. git branch => Shows all the branches and highlights the current branch
+2. git checkout <branch_name> => switch to the branch name provided
+3. git checkout -b <new_branch_name> => creates a new branch and switch to that branch
+4. git merge <branch_name> => merges the code from the branch name provided to the current branch
+
+
+# Pull Request
+1. Normally, we should not merge our code from different branches to the main branch directly / locally
+2. If we want to merge our changes to the main branch then it should be done through PR (Pull Request).
+3. After your PR get merged by your reviewer then you should pull the code to local by using:
+    "git pull" or "git pull origin <branch_name>"
+
+# Merge Conflict
+1. If there are changes in the code of the same file in two different branches and if these two branches
+are merged then the merge conflict arises.
+2. Merge conflicts should be fixed and committed from the discussion with your teammate.
